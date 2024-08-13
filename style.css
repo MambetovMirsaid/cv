@@ -1,0 +1,603 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::selection {
+  background-color: #4b5563;
+  color: black;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+header {
+  display: flex;
+  background-color: dimgrey;
+  gap: 24px;
+}
+.header-title {
+  margin-left: 112px;
+  margin-right: 700px;
+}
+.download {
+  color: white;
+  border-radius: 15px;
+  background-color: black;
+  width: 136px;
+  height: 36px;
+  margin-top: 4px;
+  margin-bottom: 7px;
+  padding: 6px 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.header-text {
+  margin-top: 10px;
+  color: #4b5563;
+  cursor: pointer;
+}
+.header-text:hover {
+  color: rgb(0, 0, 0, 1);
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+.header-icon {
+  width: 24px;
+  height: 24px;
+  margin-top: 13px;
+  margin-left: 30px;
+}
+.main-text {
+  margin-left: 112px;
+}
+.hi {
+  font-size: 60px;
+  margin-top: 106px;
+  margin-bottom: 8px;
+}
+.about-me {
+  font-size: 16px;
+  color: #4b5563;
+}
+.profile {
+  position: relative;
+  width: 280px;
+  height: 320px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 1008px;
+  bottom: 130px;
+  box-shadow: 10px 10px 0px 5px #e5e7eb;
+}
+.location {
+  position: relative;
+  bottom: 300px;
+  font-size: 24px;
+  color: #4b5563;
+}
+.adrress {
+  position: relative;
+  left: 25px;
+  bottom: 280px;
+  color: #4b5563;
+}
+.ready {
+  position: relative;
+  bottom: 280px;
+  left: 25px;
+  color: #4b5563;
+}
+.dot {
+  font-size: 20px;
+  position: relative;
+  bottom: 300px;
+  color: lawngreen;
+}
+.main-icons {
+  position: relative;
+  bottom: 280px;
+  font-size: 24px;
+  display: flex;
+  gap: 15px;
+  color: #4b5563;
+}
+.About {
+  width: 100%;
+  height: 670px;
+  background-color: #f9fafb;
+}
+.me {
+  margin-left: 667.5px;
+  background-color: #e5e7eb;
+  width: 105px;
+  height: 28px;
+  border-radius: 12px;
+  padding: 5px 20px;
+}
+.about-section {
+  color: #4b5563;
+  font-size: 14px;
+}
+.tyler {
+  position: relative;
+  top: 50px;
+  right: 520px;
+  width: 400px;
+  height: 480px;
+  box-shadow: -10px -10px 0px 0px #e5e7eb;
+}
+.about-texts {
+  position: absolute;
+  top: 787px;
+  right: 124px;
+}
+.about-title {
+  color: #111827;
+  font-size: 30px;
+}
+.about-text {
+  color: #4b5563;
+}
+.skill {
+  width: 1440px;
+  height: 560px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.skills-section {
+  margin-left: 667.5px;
+  background-color: #e5e7eb;
+  width: 75px;
+  height: 28px;
+  border-radius: 12px;
+}
+.skills-text {
+  color: #4b5563;
+  font-size: 14px;
+  padding: 5px 20px;
+  margin-bottom: 16px;
+}
+.skills-title {
+  font-size: 20px;
+  position: absolute;
+  left: 548px;
+  color: #4b5563;
+}
+.logo-container {
+  margin-left: 68px;
+  margin-top: 100px;
+  display: flex;
+}
+.skill-logo {
+}
+.first-logo {
+  display: flex;
+  gap: 98.87px;
+}
+.upper-logo-text {
+  display: flex;
+  font-size: 18px;
+  gap: 86.87px;
+  color: #4b5563;
+}
+.bottom-skill-logo {
+  margin-top: 48px;
+  display: flex;
+  gap: 100px;
+}
+.bottom-logo-text {
+  display: flex;
+  font-size: 18px;
+  color: #4b5563;
+  gap: 82px;
+}
+.section-name {
+  margin-left: 642px;
+  color: #4b5563;
+  background-color: #e5e7eb;
+  width: 115px;
+  height: 28px;
+  padding: 4px 15px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+.Experience {
+  width: 1530px;
+  height: 1140px;
+  padding-top: 96px;
+  padding-right: 80px;
+  padding-bottom: 96px;
+  padding-left: 80px;
+  background-color: #f9fafb;
+}
+.experience-title {
+  font-size: 20px;
+  line-height: 28px;
+  color: #4b5563;
+  margin-left: 432px;
+  margin-bottom: 48px;
+}
+.first-work {
+  width: 896px;
+  height: 288px;
+  margin-left: 245px;
+  margin-bottom: 48px;
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  background-color: white;
+}
+.upwork {
+  width: 102px;
+  height: 28px;
+}
+.upwork-title {
+  font-size: 20px;
+  line-height: 28px;
+  color: #111827;
+  position: relative;
+  left: 152px;
+}
+.upwork-text {
+  margin-top: 40px;
+  position: relative;
+  right: 63px;
+  color: #4b5563;
+}
+.upwork-data {
+  color: #4b5563;
+}
+.second-work {
+  width: 896px;
+  height: 288px;
+  margin-left: 245px;
+  margin-bottom: 48px;
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  background-color: white;
+}
+.second-title {
+  font-size: 20px;
+  line-height: 28px;
+  color: #111827;
+  position: relative;
+  left: 152px;
+}
+.second-text {
+  margin-top: 40px;
+  position: relative;
+  left: 52px;
+  color: #4b5563;
+}
+.second-data {
+  color: #4b5563;
+  position: relative;
+  left: 163px;
+}
+.third-work {
+  width: 896px;
+  height: 180px;
+  margin-left: 245px;
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  background-color: white;
+}
+.third-title {
+  font-size: 20px;
+  line-height: 28px;
+  color: #111827;
+  position: relative;
+  left: 163px;
+}
+.third-text {
+  margin-top: 40px;
+  position: relative;
+  left: -34px;
+  color: #4b5563;
+}
+.third-data {
+  color: #4b5563;
+  position: relative;
+  left: 59px;
+}
+.first-work:hover {
+  scale: 1.02;
+  box-shadow: 0px 0px 50px 5px rgb(0, 0, 0, 0.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.second-work:hover {
+  scale: 1.02;
+  box-shadow: 0px 0px 50px 5px rgb(0, 0, 0, 0.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.third-work:hover {
+  scale: 1.02;
+  box-shadow: 0px 0px 50px 5px rgb(0, 0, 0, 0.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.work {
+  width: 1440px;
+  height: 1848px;
+  padding: 96px, 80px, 96px, 80px;
+}
+.work-section {
+  margin-left: 682px;
+  margin-top: 96px;
+  color: #4b5563;
+  background-color: #e5e7eb;
+  width: 80px;
+  height: 28px;
+  padding: 4px 20px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+.work-title {
+  font-size: 20px;
+  line-height: 28px;
+  color: #4b5563;
+  margin-left: 520px;
+  margin-bottom: 48px;
+}
+.projects {
+  max-width: 1152px;
+  height: 480px;
+  border-radius: 12px;
+  margin-left: 144px;
+  margin-right: 144px;
+  margin-bottom: 48px;
+  box-shadow: 0px 4px 3px 0px #00000012;
+}
+.projects:hover {
+  scale: 1.02;
+  box-shadow: 0px 0px 50px 5px rgb(0, 0, 0, 0.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.Column {
+  width: 576px;
+  height: 480px;
+  border-radius: 12px, 0px, 0px, 12px;
+  border: 0px, 1px, 0px, 0px #f3f4f6 solid;
+}
+.technologies {
+  width: 480px;
+  height: 100px;
+  margin-bottom: 24px;
+}
+.share {
+  width: 24px;
+  height: 24px;
+}
+.projects-text {
+  margin-left: 600px;
+  border-radius: 12px, 0px, 0px, 12px;
+  position: relative;
+  bottom: 437px;
+}
+.projects-title {
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+.projects-about {
+  margin-bottom: 24px;
+}
+.projects-icon {
+  margin-right: 56px;
+}
+.reviews {
+  width: 1530px;
+  height: 740px;
+  background-color: #f9fafb;
+  padding: 96px, 80px, 96px, 80px;
+}
+.review-container {
+  display: flex;
+}
+.review-name {
+  width: 125px;
+  height: 28px;
+  margin-left: 657.5px;
+  border-radius: 12px;
+  position: relative;
+  top: 96px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #4b5563;
+  background-color: #e5e7eb;
+}
+.review-title {
+  color: #4b5563;
+  position: relative;
+  top: 120px;
+  margin-left: 537px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.review {
+  width: 373.33px;
+  height: 428px;
+  border-radius: 12px;
+  padding: 48px;
+  margin-top: 140px;
+  margin-left: 112px;
+  box-shadow: 0px 2px 2px 0px #0000000f;
+  box-shadow: 0px 4px 3px 0px #00000012;
+}
+.user {
+  width: 64px;
+  height: 64px;
+  margin-left: 110px;
+  margin-bottom: 24px;
+}
+.review-text {
+  color: #4b5563;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 24px;
+  line-height: 24px;
+}
+.owner {
+  color: #111827;
+  margin-left: 70px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+.website {
+  color: #4b5563;
+  margin-left: 53px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.review-second {
+  width: 373.33px;
+  height: 428px;
+  border-radius: 12px;
+  padding: 48px;
+  margin-top: 140px;
+  margin-left: 48px;
+  box-shadow: 0px 2px 2px 0px #0000000f;
+  box-shadow: 0px 4px 3px 0px #00000012;
+}
+.review:hover {
+  scale: 1.02;
+  box-shadow: 0px 0px 50px 5px rgb(0, 0, 0, 0.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.review-second:hover {
+  scale: 1.02;
+  box-shadow: 0px 0px 50px 5px rgb(0, 0, 0, 0.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.footer-top {
+  width: 1530px;
+  height: 560px;
+  padding: 96px 80px 96px 80px;
+  margin-left: 40px;
+}
+.top-name {
+  width: 122px;
+  height: 28px;
+  background-color: #e5e7eb;
+  color: #4b5563;
+  border-radius: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 547px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.top-title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #4b5563;
+  margin-left: 320px;
+  margin-bottom: 48px;
+}
+.gmail {
+  margin-left: 300px;
+  margin-bottom: 16px;
+}
+.envelope {
+  font-size: 32px;
+  color: #4b5563;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.gmail-name {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -2%;
+  color: #111827;
+  text-decoration: none;
+}
+.copy {
+  font-size: 32px;
+  margin-left: 10px;
+  color: #4b5563;
+  cursor: pointer;
+}
+.phone {
+  margin-left: 433px;
+}
+.number {
+  font-size: 32px;
+  color: #4b5563;
+  cursor: pointer;
+}
+.phone-number {
+  color: #111827;
+  font-size: 36px;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -2%;
+}
+.platforms {
+  color: #4b5563;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-left: 452px;
+  margin-top: 48px;
+  margin-bottom: 8px;
+}
+.contact {
+  color: #4b5563;
+  font-size: 24px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.contacts {
+  margin-left: 550px;
+}
+.github {
+  color: #4b5563;
+}
+.figma {
+  color: #4b5563;
+}
+.footer-bottom {
+  width: 1530px;
+  height: 68px;
+  padding: 24px 80px 24px 80px;
+  background-color: #e5e7eb;
+}
+.bottoms {
+  margin-left: 430px;
+}
+.copyright {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  bottom: 19px;
+  color: #4b5563;
+}
+.bottom-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 24px;
+  color: #4b5563;
+}
